@@ -12,5 +12,3 @@ do
   let previousBattery=$currentBattery;
   sleep 5m;
 done
-
-
