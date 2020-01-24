@@ -1,2 +1,2 @@
-### Simple bash script that sends notification, when your battery percentage is low
+### Bash script that sends notification, when your battery percentage is low
 
