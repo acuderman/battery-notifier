@@ -7,7 +7,7 @@ do
   discharging=$(acpi -b | grep -c "Discharging");
 
   if [[ $discharging -eq 1 && $battery -lt 20 ]]; then
-    notify-send "Warning: Low battery $battery%";
+    notify-send -u critical "Warning: Low battery $battery%";
   fi
 
  sleep 5m;
